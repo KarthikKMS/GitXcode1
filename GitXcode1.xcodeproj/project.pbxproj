@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9850B8C1DF5B301002AD3F1 /* Page4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9850B8B1DF5B301002AD3F1 /* Page4ViewController.m */; };
 		D9F21E281DF549AD0037EA3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F21E271DF549AD0037EA3F /* main.m */; };
 		D9F21E2B1DF549AD0037EA3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F21E2A1DF549AD0037EA3F /* AppDelegate.m */; };
 		D9F21E311DF549AD0037EA3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F21E2F1DF549AD0037EA3F /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9850B8A1DF5B301002AD3F1 /* Page4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page4ViewController.h; sourceTree = "<group>"; };
+		D9850B8B1DF5B301002AD3F1 /* Page4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page4ViewController.m; sourceTree = "<group>"; };
 		D9F21E231DF549AD0037EA3F /* GitXcode1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitXcode1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F21E271DF549AD0037EA3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9F21E291DF549AD0037EA3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +92,8 @@
 				D9F21E4B1DF55B1D0037EA3F /* Page2ViewController.h */,
 				D9F21E4C1DF55B1D0037EA3F /* Page2ViewController.m */,
 				D9F21E4D1DF55B1D0037EA3F /* Page2ViewController.xib */,
+				D9850B8A1DF5B301002AD3F1 /* Page4ViewController.h */,
+				D9850B8B1DF5B301002AD3F1 /* Page4ViewController.m */,
 				D9F21E511DF55B1D0037EA3F /* ViewController.h */,
 				D9F21E521DF55B1D0037EA3F /* ViewController.m */,
 			);
@@ -169,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F21E2B1DF549AD0037EA3F /* AppDelegate.m in Sources */,
+				D9850B8C1DF5B301002AD3F1 /* Page4ViewController.m in Sources */,
 				D9F21E531DF55B1D0037EA3F /* Page2ViewController.m in Sources */,
 				D9F21E281DF549AD0037EA3F /* main.m in Sources */,
 				D9F21E571DF55B1D0037EA3F /* ViewController.m in Sources */,
