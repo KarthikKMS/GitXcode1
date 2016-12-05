@@ -48,10 +48,21 @@
             <objects>
                 <viewController id="nwT-QO-Fkc" customClass="Page2ViewController" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="nzi-lW-0Nd"/>
+                    <connections>
+                        <segue destination="dqm-f4-kGf" kind="presentation" identifier="Page2To3Segue" id="0cD-J1-E7H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yzv-ap-3Cn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="905" y="37"/>
+            <point key="canvasLocation" x="998" y="137"/>
+        </scene>
+        <!--Page3 View Controller-->
+        <scene sceneID="5JA-mr-cbi">
+            <objects>
+                <viewController id="dqm-f4-kGf" customClass="Page3ViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lYT-uk-IHV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1918" y="137"/>
         </scene>
     </scenes>
 </document>

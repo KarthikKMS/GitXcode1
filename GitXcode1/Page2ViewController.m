@@ -23,4 +23,8 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (IBAction)page3ButtonPressed:(id)sender {
+    [self performSegueWithIdentifier:@"Page2To3Segue" sender:self];
+}
+
 @end
