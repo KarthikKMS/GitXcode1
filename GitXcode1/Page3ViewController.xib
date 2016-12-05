@@ -29,12 +29,27 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68G-CB-XyI">
+                    <rect key="frame" x="20" y="20" width="64" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="64" id="QtX-6D-wTC"/>
+                        <constraint firstAttribute="height" constant="30" id="R0N-8I-qDE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Cancel"/>
+                    <connections>
+                        <action selector="cancelButtonPressed:" destination="-1" eventType="touchUpInside" id="mU9-t9-kbj"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="nLf-xb-bdL" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZMR-DK-cEF"/>
+                <constraint firstItem="68G-CB-XyI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="iMF-YA-tIN"/>
                 <constraint firstItem="nLf-xb-bdL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="50" id="lM1-U1-IGA"/>
+                <constraint firstItem="68G-CB-XyI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="qIV-JF-wdJ"/>
             </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
         </view>
     </objects>
 </document>
