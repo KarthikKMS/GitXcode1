@@ -13,6 +13,8 @@
 		D9F21E311DF549AD0037EA3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F21E2F1DF549AD0037EA3F /* Main.storyboard */; };
 		D9F21E331DF549AD0037EA3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F21E321DF549AD0037EA3F /* Assets.xcassets */; };
 		D9F21E361DF549AD0037EA3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F21E341DF549AD0037EA3F /* LaunchScreen.storyboard */; };
+		D9F21E401DF550310037EA3F /* Page2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F21E3E1DF550310037EA3F /* Page2ViewController.m */; };
+		D9F21E411DF550310037EA3F /* Page2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F21E3F1DF550310037EA3F /* Page2ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		D9F21E321DF549AD0037EA3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9F21E351DF549AD0037EA3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9F21E371DF549AD0037EA3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F21E3D1DF550310037EA3F /* Page2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page2ViewController.h; sourceTree = "<group>"; };
+		D9F21E3E1DF550310037EA3F /* Page2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page2ViewController.m; sourceTree = "<group>"; };
+		D9F21E3F1DF550310037EA3F /* Page2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page2ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				D9F21E2A1DF549AD0037EA3F /* AppDelegate.m */,
 				D9F21E2C1DF549AD0037EA3F /* ViewController.h */,
 				D9F21E2D1DF549AD0037EA3F /* ViewController.m */,
+				D9F21E3D1DF550310037EA3F /* Page2ViewController.h */,
+				D9F21E3E1DF550310037EA3F /* Page2ViewController.m */,
+				D9F21E3F1DF550310037EA3F /* Page2ViewController.xib */,
 				D9F21E2F1DF549AD0037EA3F /* Main.storyboard */,
 				D9F21E321DF549AD0037EA3F /* Assets.xcassets */,
 				D9F21E341DF549AD0037EA3F /* LaunchScreen.storyboard */,
@@ -110,7 +118,7 @@
 				TargetAttributes = {
 					D9F21E221DF549AD0037EA3F = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2TL9982YKQ;
+						DevelopmentTeam = TZ824L8Y37;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,6 +148,7 @@
 			files = (
 				D9F21E361DF549AD0037EA3F /* LaunchScreen.storyboard in Resources */,
 				D9F21E331DF549AD0037EA3F /* Assets.xcassets in Resources */,
+				D9F21E411DF550310037EA3F /* Page2ViewController.xib in Resources */,
 				D9F21E311DF549AD0037EA3F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +162,7 @@
 			files = (
 				D9F21E2E1DF549AD0037EA3F /* ViewController.m in Sources */,
 				D9F21E2B1DF549AD0037EA3F /* AppDelegate.m in Sources */,
+				D9F21E401DF550310037EA3F /* Page2ViewController.m in Sources */,
 				D9F21E281DF549AD0037EA3F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2TL9982YKQ;
+				DEVELOPMENT_TEAM = TZ824L8Y37;
 				INFOPLIST_FILE = GitXcode1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KMS.GitXcode1;
@@ -283,7 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2TL9982YKQ;
+				DEVELOPMENT_TEAM = TZ824L8Y37;
 				INFOPLIST_FILE = GitXcode1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KMS.GitXcode1;
