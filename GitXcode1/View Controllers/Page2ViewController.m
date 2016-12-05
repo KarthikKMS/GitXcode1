@@ -25,7 +25,7 @@
 
 // Takes you to page 3
 - (IBAction)page3ButtonPressed:(id)sender {
-    [self performSegueWithIdentifier:@"Page2To3Segue" sender:self];
+//    [self performSegueWithIdentifier:@"Page2To3Segue" sender:self];
 }
 
 @end
