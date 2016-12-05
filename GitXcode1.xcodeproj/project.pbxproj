@@ -17,6 +17,7 @@
 		D9F21E411DF550310037EA3F /* Page2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F21E3F1DF550310037EA3F /* Page2ViewController.xib */; };
 		D9F21E451DF555F70037EA3F /* Page3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F21E431DF555F70037EA3F /* Page3ViewController.m */; };
 		D9F21E461DF555F70037EA3F /* Page3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F21E441DF555F70037EA3F /* Page3ViewController.xib */; };
+		D9F21E491DF55A950037EA3F /* dele.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F21E481DF55A950037EA3F /* dele.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		D9F21E421DF555F70037EA3F /* Page3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Page3ViewController.h; sourceTree = "<group>"; };
 		D9F21E431DF555F70037EA3F /* Page3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Page3ViewController.m; sourceTree = "<group>"; };
 		D9F21E441DF555F70037EA3F /* Page3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Page3ViewController.xib; sourceTree = "<group>"; };
+		D9F21E471DF55A950037EA3F /* dele.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dele.h; sourceTree = "<group>"; };
+		D9F21E481DF55A950037EA3F /* dele.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dele.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				D9F21E3D1DF550310037EA3F /* Page2ViewController.h */,
 				D9F21E3E1DF550310037EA3F /* Page2ViewController.m */,
 				D9F21E3F1DF550310037EA3F /* Page2ViewController.xib */,
+				D9F21E471DF55A950037EA3F /* dele.h */,
+				D9F21E481DF55A950037EA3F /* dele.m */,
 				D9F21E421DF555F70037EA3F /* Page3ViewController.h */,
 				D9F21E431DF555F70037EA3F /* Page3ViewController.m */,
 				D9F21E441DF555F70037EA3F /* Page3ViewController.xib */,
@@ -172,6 +177,7 @@
 				D9F21E2E1DF549AD0037EA3F /* ViewController.m in Sources */,
 				D9F21E2B1DF549AD0037EA3F /* AppDelegate.m in Sources */,
 				D9F21E401DF550310037EA3F /* Page2ViewController.m in Sources */,
+				D9F21E491DF55A950037EA3F /* dele.m in Sources */,
 				D9F21E451DF555F70037EA3F /* Page3ViewController.m in Sources */,
 				D9F21E281DF549AD0037EA3F /* main.m in Sources */,
 			);
