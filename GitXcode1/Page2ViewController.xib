@@ -29,12 +29,27 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfB-R7-eJm">
+                    <rect key="frame" x="20" y="20" width="58" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="8gS-Wt-zLe"/>
+                        <constraint firstAttribute="width" constant="58" id="q08-au-cso"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="Cancel"/>
+                    <connections>
+                        <action selector="cancelButtonPressed:" destination="-1" eventType="touchUpInside" id="vNZ-CZ-ODy"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="Y8R-bi-qLY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="3Bg-9E-N6q"/>
                 <constraint firstItem="Y8R-bi-qLY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="59" id="BO8-2h-kca"/>
+                <constraint firstItem="mfB-R7-eJm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="SEA-5h-7Tu"/>
+                <constraint firstItem="mfB-R7-eJm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="hoA-UX-KnE"/>
             </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
         </view>
     </objects>
 </document>
